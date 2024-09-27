@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3v4glu2vwyarcsuwkdxsdbcv7zndxvahhw6hx22jhr6pesgts6mt4ezukjfvgy7l56uyd7o5rwkkek3billsa",
+  "Issue Number": "5",
+  "Client": {
+    "Name": "Asia Television Limited",
+    "Region": "Hong Kong",
+    "Industry": "Arts & Recreation",
+    "Website": "http://www.hkatv.com/",
+    "Social Media": "https://www.youtube.com/atvhongkong",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Asia Television Limited (Chinese: 亞洲電視有限公司, also known as ATV) is a digital media and broadcasting company in Hong Kong. Established as the first television service in Hong Kong as Rediffusion Television (Chinese: 麗的電視/麗的呼聲) on 29 May 1957, it shifted to terrestrial television on 30 November 1973, and was renamed Asia Television on 24 September 1982. ATV operated two main over-the-air channels: the Cantonese-language ATV Home and the English-language ATV World.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Videos, films and other recordings created or belongs to Asia Television Limited.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Graphsplit",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.hkatv.com/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1,f03196401\tOsaka, Japan\r\n2,f03196399 \tKuala Lumpur, Malaysia\r\n3,f0522948\tSingapore\r\nIf we have new SPs to cooperate with later, we will add them in the comments.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-09-27 08:41:27.380381865 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3v4glu2vwyarcsuwkdxsdbcv7zndxvahhw6hx22jhr6pesgts6mt4ezukjfvgy7l56uyd7o5rwkkek3billsa",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
