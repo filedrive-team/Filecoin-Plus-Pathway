@@ -17,22 +17,22 @@
     "Describe the data being stored onto Filecoin": "Trailers, samples, photos, recordings of the films produced by our company.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
     "How do you plan to prepare the dataset": "Graphsplit,I prefer offline transmission",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.whnlys.com/vod_show.asp?id=179\r\nhttp://www.whnlys.com/vod_show.asp?id=177\r\nhttp://www.whnlys.com/vod_show.asp?id=93",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.whnlys.com/news_show.asp?id=350\r\nhttp://www.whnlys.com/news_show.asp?id=347\r\nhttp://www.whnlys.com/news_show.asp?id=345\r\nhttp://www.whnlys.com/news_show.asp?id=333\r\n",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
     "How will you be distributing your data to storage providers": "Others",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1，f01228000 Seoul, Seoul, KR\r\n2，f0522948 Singapore\r\n3，f03137648  New York, USA",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1, f02001818 Hong Kong\r\n2, f02002218 Seoul, South Korea\r\n3, f02002233 Singapore\r\n4, f02003000 Changsha, China",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "1PiB",
-    "Single Size Dataset": "250TiB",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "1.25PiB",
     "Replicas": 4,
-    "Weekly Allocation": "250TiB"
+    "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
     "State": "Granted",
