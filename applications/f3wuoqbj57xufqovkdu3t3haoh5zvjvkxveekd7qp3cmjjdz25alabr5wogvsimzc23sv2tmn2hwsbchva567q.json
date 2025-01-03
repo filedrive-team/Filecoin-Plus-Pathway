@@ -35,7 +35,7 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-10-18 05:44:09.512310219 UTC",
     "Validated By": "Filedrive-ops",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "d558a9a5-e040-4f9d-93e6-e912eabcd5b4",
     "On Chain Address": "f3wuoqbj57xufqovkdu3t3haoh5zvjvkxveekd7qp3cmjjdz25alabr5wogvsimzc23sv2tmn2hwsbchva567q",
     "Multisig Address": "true",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
