@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent)",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer, Venus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f03090976 , USA/Virginia\r\n2.f03224648 , Singapore\r\n3.f01807908 , UK/London\r\n4.f01927410.  US/California",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f03087446 , USA/Los Angeles\r\n2.f03224648 , Singapore\r\n3.f01807908 , UK/London\r\n4.f01927410.  US/California",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -32,7 +32,7 @@
     "Total Requested Amount": "12PiB",
     "Single Size Dataset": "3PiB",
     "Replicas": 4,
-    "Weekly Allocation": "2PiB"
+    "Weekly Allocation": "1.25PiB"
   },
   "Lifecycle": {
     "State": "Granted",
