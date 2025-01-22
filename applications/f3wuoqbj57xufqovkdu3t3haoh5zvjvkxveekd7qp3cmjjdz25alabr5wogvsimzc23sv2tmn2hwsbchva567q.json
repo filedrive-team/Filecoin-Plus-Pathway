@@ -35,11 +35,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-01-22 10:15:42.351089392 UTC",
+    "State": "Granted",
+    "Validated At": "2025-01-22 10:17:34.010871442 UTC",
     "Validated By": "Filedrive-ops",
     "Active": true,
-    "Updated At": "2025-01-22 10:15:42.351093566 UTC",
+    "Updated At": "2025-01-22 10:17:34.010867892 UTC",
     "Active Request ID": "11f0c0b0-3793-4f5d-ab43-7a9a68b736d7",
     "On Chain Address": "f3wuoqbj57xufqovkdu3t3haoh5zvjvkxveekd7qp3cmjjdz25alabr5wogvsimzc23sv2tmn2hwsbchva567q",
     "Multisig Address": "true",
@@ -147,9 +147,16 @@
       "Request Type": "Refill",
       "Created At": "2025-01-22 10:15:42.351102634 UTC",
       "Updated At": "2025-01-22 10:15:42.351103673 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1PiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Filedrive-ops",
+          "Signing Address": "f1hhfjedejpwi44wffdqrs3xl6bnygzfjfj3tzpaq",
+          "Created At": "2025-01-22 10:17:31.183000000 UTC",
+          "Message CID": "bafy2bzacearetp7kifoxugbrlvv64g3vbk7ml56xqp7rjjosmgy6f53ic5ypo"
+        }
+      ]
     }
   ]
 }
