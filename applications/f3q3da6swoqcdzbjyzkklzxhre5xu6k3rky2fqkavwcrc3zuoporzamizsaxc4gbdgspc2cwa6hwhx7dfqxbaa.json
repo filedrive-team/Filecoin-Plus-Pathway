@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3q3da6swoqcdzbjyzkklzxhre5xu6k3rky2fqkavwcrc3zuoporzamizsaxc4gbdgspc2cwa6hwhx7dfqxbaa",
+  "Issue Number": "27",
+  "Client": {
+    "Name": "ActiveLoopDL Admin Data",
+    "Region": "Indonesia",
+    "Industry": "Education & Training",
+    "Website": "https://www.activeloop.ai/",
+    "Social Media": "https://x.com/activeloopai",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Activeloop, an open-source data lake designed to handle unstructured data like images, videos, and point clouds for deep learning. The project was born from the founder’s experience dealing with large-scale neuroscience data, leading to a solution that simplifies data storage, streaming, and versioning for AI workflows.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Images and Videos: High-resolution visual data.\nAudio Files: Sound recordings applicable to speech recognition and audio analysis.\nText Documents: Unstructured textual data for natural language processing.\nEmbeddings: Vector representations of data facilitating similarity searches and machine learning model inputs.\nAnnotations and Metadata: Labels, bounding boxes, and other descriptive information enhancing data utility.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "The process begins by importing the data to generate a unique Content Identifier (CID). Once that's done, a storage deal is created. The data is then split into segments, encoded, and duplicated to ensure durability, after which it's sealed into specific storage units called sectors. Storage providers handle a sequence of tasks—such as pre-commitment, sealing, and final commitment—to securely lock the data in place. To maintain trust and transparency, they regularly submit proofs confirming that the data remains intact. When someone needs to access the data, they can retrieve it using the CID, which enables decoding and delivery of the original content.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://app.activeloop.ai/activeloop/timit-train\nhttps://app.activeloop.ai/activeloop/imagenet-train\nhttps://app.activeloop.ai/activeloop/gtzan-genre",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "North America, Greater China, Asia other than Greater China, Europe",
+    "How will you be distributing your data to storage providers": "Venus built-in data transfer, IPFS, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f03540552 Los Angeles, US\n2.f03540038 Moscow, Rusia\n3.f03538789 Ha Batrung, Vitan\n4.f03519246 HB Shenzhen, China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "2.5PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-04-25 09:37:39.096572496 UTC",
+    "Validated By": "Filedrive-ops",
+    "Active": true,
+    "Updated At": "2025-04-25 09:37:39.096567414 UTC",
+    "Active Request ID": "4fc941b2-1bbf-42a2-9116-425a528c5689",
+    "On Chain Address": "f3q3da6swoqcdzbjyzkklzxhre5xu6k3rky2fqkavwcrc3zuoporzamizsaxc4gbdgspc2cwa6hwhx7dfqxbaa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "4fc941b2-1bbf-42a2-9116-425a528c5689",
+      "Request Type": "First",
+      "Created At": "2025-04-25 09:34:37.445168571 UTC",
+      "Updated At": "2025-04-25 09:34:37.445169529 UTC",
+      "Active": false,
+      "Allocation Amount": "549755813888000 B",
+      "Signers": [
+        {
+          "Github Username": "Filedrive-ops",
+          "Signing Address": "f1hhfjedejpwi44wffdqrs3xl6bnygzfjfj3tzpaq",
+          "Created At": "2025-04-25 09:37:36.960000000 UTC",
+          "Message CID": "bafy2bzacedyiefjosrufz4bzqynoxpnkg3ts2bewwt5ppucs6ffe4yth3wnya"
+        }
+      ]
+    }
+  ]
+}
