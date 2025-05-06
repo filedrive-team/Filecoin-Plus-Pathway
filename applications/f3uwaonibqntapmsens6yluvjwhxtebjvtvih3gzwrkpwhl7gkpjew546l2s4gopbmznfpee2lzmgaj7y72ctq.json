@@ -17,13 +17,13 @@
     "Describe the data being stored onto Filecoin": "Sports event information, live animation video broadcasts, professional club data analysis, etc.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
     "How do you plan to prepare the dataset": "Graphsplit",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.leisu.com/news/view-226501\r\nhttps://www.leisu.com/data/zuqiu/comp-120/data\r\nhttps://www.leisu.com/news/view-226228\r\nhttps://www.leisu.com/news/view-226491",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.leisu.com/news/view-226501\nhttps://www.leisu.com/data/zuqiu/comp-120/data\nhttps://www.leisu.com/news/view-226228\nhttps://www.leisu.com/news/view-226491",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent)",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer, Venus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f03087446 , USA/Los Angeles\r\n2.f03224648 , Singapore\r\n3.f01807908 , UK/London\r\n4.f01927410.  US/California",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f03087446 , USA/Los Angeles\n2.f03224648 , Singapore\n3.f01807908 , UK/London\n4.f01927410.  US/California",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "07b904b4-d7ec-4a72-8d06-8e52b43e9bea",
     "On Chain Address": "f3uwaonibqntapmsens6yluvjwhxtebjvtvih3gzwrkpwhl7gkpjew546l2s4gopbmznfpee2lzmgaj7y72ctq",
     "Multisig Address": "true",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
