@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3wjizvisvjvezu6o5ny2rhsm2bzztucovsa4jz7cbxnfkd44nddmlgswsqhffgdlzwhgnom6n4ola36f7dzja",
+  "Issue Number": "37",
+  "Client": {
+    "Name": "GOES 16-19",
+    "Region": "Malaysia",
+    "Industry": "Environment",
+    "Website": "https://www.goes-r.gov/",
+    "Social Media": "https://www.facebook.com/GOESRsatellites",
+    "Social Media Type": "Facebook",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Geostationary Operational Environmental Satellites (GOES) program, began in 1975 with GOES-1 to provide continuous weather and environmental data for the Western Hemisphere. The modern GOES-R Series, launched between 2016 and 2024, features advanced imaging technology for high-resolution weather monitoring every 30 seconds to 10 minutes. Environmental Satellite, Data, and Information Service (NESDIS), the program supports forecasting, disaster response, and climate research.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Geostationary Operational Environmental Satellites (GOES) program stores high-resolution satellite imagery and meteorological data. This includes full-disk and regional imagery from GOES-16, 17, 18, and 19, captured every 30 seconds to 10 minutes across 16 spectral bands in NetCDF format. The data supports real-time weather monitoring, severe storm tracking, and environmental research across the Western Hemisphere. It is accessible via Open Data Dissemination on AWS S3 and formatted for efficient storage and retrieval.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "To prepare the Geostationary Operational Environmental Satellites (GOES) dataset, we first download the data from AWS S3 using the AWS CLI, verifying integrity to check file metadata without downloading contents. The dataset, comprising high-resolution multi-spectral imagery and meteorological data, is segmented into chunks using go-graphsplit, with files split into smaller parts and packaged into CAR files, each assigned a unique PieceCID. Metadata, including file sizes, split counts, and spectral band details, is stored in a PostgreSQL database for indexing and efficient retrieval.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/noaa-goes/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Australia (continent), Asia other than Greater China, Greater China, Africa, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, I don't know yet, Venus built-in data transfer, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f02003699 Russia\n2. f03519247 Russia\n3. f03551138 US\n4. f03590163 Korea\n5. f03605957 Hongkong\n6. f03543055 Russia",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "9 PiB",
+    "Single Size Dataset": "1.5 PiB",
+    "Replicas": 6,
+    "Weekly Allocation": "500 TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-14 08:48:03.779735309 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3wjizvisvjvezu6o5ny2rhsm2bzztucovsa4jz7cbxnfkd44nddmlgswsqhffgdlzwhgnom6n4ola36f7dzja",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
