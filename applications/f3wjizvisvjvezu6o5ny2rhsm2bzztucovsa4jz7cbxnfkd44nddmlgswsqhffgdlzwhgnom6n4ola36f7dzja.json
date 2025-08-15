@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Australia (continent), Asia other than Greater China, Greater China, Africa, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f02003699 Russia\n2. f02002333 Seoul, South Korea\n3. f03551138 US\n4. f03590163 Korea\n5. f03605957 Hongkong\n6. f03543055 Russia```\n\n### How do you plan to make deals to your storage providers\n\nDroplet client\n\n### If you answered \"Others/custom tool\" in the previous question, enter the details here\n\n```text\n",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f02003699 Russia\n2. f02002333 Seoul, South Korea\n3. f03551138 US\n4. f03590163 Korea\n5. f03605957 Hongkong\n6. f03543055 Russia",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
