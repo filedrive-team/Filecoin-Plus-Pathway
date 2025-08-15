@@ -35,15 +35,25 @@
     "Weekly Allocation": "500 TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-15 06:08:45.104903436 UTC",
+    "Validated By": "Filedrive-ops",
     "Active": true,
-    "Updated At": "2025-08-14 08:48:03.779735309 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-15 06:08:45.104907199 UTC",
+    "Active Request ID": "b6f133b6-34f8-4611-807f-2fd6afaf5e59",
     "On Chain Address": "f3wjizvisvjvezu6o5ny2rhsm2bzztucovsa4jz7cbxnfkd44nddmlgswsqhffgdlzwhgnom6n4ola36f7dzja",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "b6f133b6-34f8-4611-807f-2fd6afaf5e59",
+      "Request Type": "First",
+      "Created At": "2025-08-15 06:08:45.104909329 UTC",
+      "Updated At": "2025-08-15 06:08:45.104910363 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
