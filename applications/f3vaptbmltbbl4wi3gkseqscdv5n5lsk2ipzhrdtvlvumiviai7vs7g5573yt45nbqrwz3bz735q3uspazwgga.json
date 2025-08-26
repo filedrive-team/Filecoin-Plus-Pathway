@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3vaptbmltbbl4wi3gkseqscdv5n5lsk2ipzhrdtvlvumiviai7vs7g5573yt45nbqrwz3bz735q3uspazwgga",
+  "Issue Number": "39",
+  "Client": {
+    "Name": "BossDB Admin Dataset",
+    "Region": "India",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://bossdb.org/",
+    "Social Media": "https://x.com/theBossDB/",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The BossDB (Brain Observatory Storage Service and Database) project, was formally introduced in a 2017 bioRxiv preprint as a cloud-native platform for handling petascale neuroimaging datasets. Motivated by the BRAIN Initiative and IARPA's MICrONS program to reverse-engineer brain algorithms through massive co-registered structural and functional data, BossDB evolved to address the challenges of storing and accessing multi-modal, high-resolution volumes like electron microscopy and X-ray microtomography. As an open-source ecosystem deployed on AWS, it supports data ingest, scalable spatial indexing, annotations, and sharing via a RESTful API, enabling collaborative neuroscience research on connectomes and neural circuits. Key milestones include its integration with tools like Neuroglancer for visualization, expansion to over a petabyte of data by 2022, and a 2021 partnership with AWS Open Data Sponsorship to democratize access to diverse datasets across scales from nanoscale to mesoscale.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The data we want to stores is petascale neuroimaging data. This includes high-resolution 3D volumes from electron microscopy and X-ray microtomography, stored in machine-readable formats like HDF5 and NumPy. The data supports neuroscience research on brain connectomes and neural circuits, with annotations for collaborative analysis.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "To prepare the BossDB Open Neuroimagery Datasets, we first download the data from AWS S3 using the AWS CLI, verifying integrity with the head_object method to check metadata without downloading contents. The dataset, comprising petascale 3D neuroimaging volumes in HDF5 and NumPy formats from electron microscopy and X-ray microtomography, is segmented into 16-32 GB chunks using Singularity, with files exceeding 32 GB split into smaller parts and packaged into CAR files, each assigned a unique PieceCID. Metadata, including file sizes, split counts, and annotation details, is stored in a PostgreSQL database for indexing and CID-based retrieval.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/bossdb/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Greater China, Africa, South America, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03540552 Los Angeles, US\n2. f03540038 Moscow, Rusia\n3. f03538789 Ha Batrung, Vitan\n4. f03519246 Shenzhen, China\n5. f02006998 Thailand\n6. f02006988 United States\n7. f02006966 Singapore\n8. f02003777 Vietnam",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6.4PiB",
+    "Single Size Dataset": "800TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "400TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-26 08:40:42.702400680 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3vaptbmltbbl4wi3gkseqscdv5n5lsk2ipzhrdtvlvumiviai7vs7g5573yt45nbqrwz3bz735q3uspazwgga",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
