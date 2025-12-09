@@ -35,7 +35,7 @@
     "Weekly Allocation": "400TiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2025-12-09 02:16:05.463423631 UTC",
     "Validated By": "Filedrive-ops",
     "Active": true,
